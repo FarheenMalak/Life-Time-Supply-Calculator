@@ -1,50 +1,56 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e8f1f2;
-    margin: 0;
-    padding: 0; /* Remove padding on body */
-    height: 100vh; /* Set the height to 100% of the viewport */
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; 
+    font-family: 'Arial', sans-serif;
 }
 
 .container {
-    max-width: 600px;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    padding: 30px;
     text-align: center;
+    background: #f8d9d3; 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #34495e;
+    color: #7a2111; 
     margin-bottom: 20px;
-    font-size: 2.5rem;
 }
 
-p {
+.input-section {
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ebab9f; 
+    border-radius: 5px;
+    margin: 5px auto;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7a2111; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #611c0f; 
+}
+
+.result {
+    margin-top: 20px;
     font-size: 1.2rem;
-    line-height: 1.5;
-    margin: 15px 0;
-}
-
-strong {
-    color: #e74c3c;
-}
-
-#lifetime-supply {
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #2980b9;
-    margin-top: 25px;
-    border-top: 1px solid #dcdcdc;
-    padding-top: 15px;
-    transition: color 0.3s ease;
-}
-
-#lifetime-supply:hover {
-    color: #1abc9c;
+    color: #bb7063; 
 }
 
