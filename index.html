@@ -7,18 +7,20 @@
     <title>Lifetime Supply Calculator</title>
 </head>
 <body>
-    <div class="main">
     <div class="container">
-        <h2>The Lifetime Supply Calculator</h2>
-
-        <p><strong>Favorite Snack:</strong> <span id="fav-snack">lays</span></p>
-        <p><strong>Current Age:</strong> <span id="current-age">18</span></p>
-        <p><strong>Estimated Maximum Age:</strong> <span id="max-age">55</span></p>
-        <p><strong>Amount of Snacks per Day:</strong> <span id="per-day">2</span></p>
-        <p id="lifetime-supply"></p>
+        <h2>Lifetime Supply Calculator</h2>
+        <div class="input-section">
+            <input type="text" id="snack-input" placeholder="Favorite Snack" />
+            <input type="number" id="age-input" placeholder="Current Age" />
+            <input type="number" id="max-age-input" placeholder="Estimated Maximum Age" />
+            <input type="number" id="snacks-per-day-input" placeholder="Snacks Per Day" />
+            <button id="calculate-btn">Calculate</button>
+        </div>
+        <div id="lifetime-supply" class="result"></div>
     </div>
-</div>
-<script src="app.js"></script>
+
+    <script src="app.js"></script>
 </body>
 </html>
+
 
